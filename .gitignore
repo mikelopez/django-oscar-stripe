@@ -1,3 +1,15 @@
-*.pyc
-*.egg-info
-htmlcov/*
+*.sw[po]
+*.py[oc]
+
+# Packaging
+dist
+build/
+django_oscar_paypal.egg-info/
+docs/_build
+
+# Testing
+htmlcov
+.tox
+.coverage
+.coveralls.yml
+
