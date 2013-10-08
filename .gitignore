@@ -1,6 +1,6 @@
 *.sw[po]
 *.py[oc]
-
+*.sqlite
 # Packaging
 dist
 build/
